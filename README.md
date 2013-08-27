@@ -2,7 +2,7 @@ Capital\_OS\_API (群益海期報價API)
 ===========
 作者：[Philipz](mailto://philipzheng@gmail.com "Email")  
 Blog：[Philipz學習日誌](http://server.everfine.com.tw/blog/)  
-感謝[Lucas](mailto://jenru.tw@gmail.com)提供JNA+SWT來接C語言Callback的程式碼
+感謝[Lucas](mailto://jenru.tw@gmail.com)提供JNA+SWT來接C語言Callback的程式碼  
 API下載網址：[群益API](http://www.capital.com.tw/Service2/Download/api.asp)
 
 使用Java JNA和SWT去界接群益海期報價API的範例
