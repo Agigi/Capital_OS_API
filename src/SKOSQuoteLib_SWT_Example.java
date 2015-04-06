@@ -20,20 +20,20 @@ public class SKOSQuoteLib_SWT_Example {
 		final Display display = new Display();
 		final Shell shell = new Shell(display);
 		shell.setSize(300, 200);
-		shell.setText("¸s¯q®ü´Á³ø»ùAPI");
+		shell.setText("ç¾¤ç›Šæµ·æœŸå ±åƒ¹API");
 		shell.setLayout(new RowLayout());
 		final SKOSQuoteLib skquotelib = (SKOSQuoteLib) Native.loadLibrary(
 				"SKOSQuoteLib", SKOSQuoteLib.class);
 		System.out.println("start OverSea");
 
 		final Button button = new Button(shell, SWT.PUSH);
-		button.setText("±µ¦¬³ø»ù");
+		button.setText("æ¥æ”¶å ±åƒ¹");
 		final Button close = new Button(shell, SWT.PUSH);
-		close.setText("µ²§ô³s½u");
+		close.setText("çµæŸé€£ç·š");
 		final Label connectionlabel = new Label(shell, SWT.SHADOW_IN);
 		connectionlabel.setText("Connecting...");
 		System.out.println("skquotelib =" + skquotelib);
-		ini = skquotelib.SKOSQuoteLib_Initialize("¨­¤ÀÃÒ¦r¸¹","±K½X");
+		ini = skquotelib.SKOSQuoteLib_Initialize("èº«åˆ†è­‰å­—è™Ÿ","å¯†ç¢¼");
 		System.out.println("inti " + ini);
 		if (ini == 0) {
 			// fnkld=new FOnNotifyKLineData();

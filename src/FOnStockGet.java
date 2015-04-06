@@ -8,20 +8,20 @@ public class FOnStockGet implements StdCallCallback{
 		//System.out.println(sStockidx);
 		int nDot = (int) Math.pow(10,sDecimal);
 		String[] result = new String[14];
-		result[0] = bstrExchangeName.trim(); //¥æ©ö©Ò¦WºÙ
-		result[1] = bstrStockName.trim(); //°Ó«~¦WºÙ
-		result[2] = (nOpen / nDot) + ""; //¶}½L»ù
-		result[3] = (nHigh / nDot) + ""; //³Ì°ª»ù
-		result[4] = (nLow / nDot) + ""; //³Ì§C»ù
-		result[5] = (nClose / nDot) + ""; //¦¨¥æ»ù
-		result[6] = (nSettlePrice / nDot) + ""; //µ²ºâ»ù
-		result[7] = nTickQty + ""; //³æ¶q
-		result[8] = (nRef / nDot) + ""; //¬Q¦¬¡B°Ñ¦Ò»ù
-		result[9] = (nBid / nDot) + ""; //¶R»ù
-		result[10] = nBc + ""; //¶R¶q
-		result[11] = (nAsk / nDot) + ""; //½æ»ù
-		result[12] = nAc + ""; //½æ¶q
-		result[13] = nTQty + ""; //¦¨¥æ¶q
+		result[0] = bstrExchangeName.trim(); //äº¤æ˜“æ‰€åç¨±
+		result[1] = bstrStockName.trim(); //å•†å“åç¨±
+		result[2] = (nOpen / nDot) + ""; //é–‹ç›¤åƒ¹
+		result[3] = (nHigh / nDot) + ""; //æœ€é«˜åƒ¹
+		result[4] = (nLow / nDot) + ""; //æœ€ä½åƒ¹
+		result[5] = (nClose / nDot) + ""; //æˆäº¤åƒ¹
+		result[6] = (nSettlePrice / nDot) + ""; //çµç®—åƒ¹
+		result[7] = nTickQty + ""; //å–®é‡
+		result[8] = (nRef / nDot) + ""; //æ˜¨æ”¶ã€åƒè€ƒåƒ¹
+		result[9] = (nBid / nDot) + ""; //è²·åƒ¹
+		result[10] = nBc + ""; //è²·é‡
+		result[11] = (nAsk / nDot) + ""; //è³£åƒ¹
+		result[12] = nAc + ""; //è³£é‡
+		result[13] = nTQty + ""; //æˆäº¤é‡
 		System.out.println(Arrays.toString(result));
 	}
 }
